@@ -1,2 +1,27 @@
 # BibliotecaProyect
-Proyecto de biblioteca
+# Proyecto de biblioteca
+El equipo se propone mejorar el Sistema de Bibliotecas para la Facultad de Ingeniería Mecánica (FIM) de la Universidad Nacional de Ingeniería (UNI), habilitando dos servicios complementarios dependiendo del tipo de usuario logueado en la página web. Permitiendo al bibliotecario devolver, gestionar, consultar y realizar préstamos; como al cliente, consultar los libros que necesite, además de realizar reservas desde su ordenador personal. 
+Alcance
+Análisis y evaluación del sistema de biblioteca actual de la Facultad de Ingeniería Mecánica de la Universidad Nacional de Ingeniería: se realizará una evaluación completa del sistema de biblioteca existente, incluyendo la revisión de la estructura, la funcionalidad y la eficiencia del sistema actual.
+Identificación de áreas problemáticas: se identificarán las áreas problemáticas del sistema de biblioteca actual, como la falta de integración de un sistema de reservas, la falta de capacidad para manejar grandes volúmenes de información y la falta de seguridad.
+Desarrollo de un plan de mejoramiento: se desarrollará un plan de mejoramiento detallado que abordará las áreas problemáticas identificadas y establecerá objetivos claros y medibles para el proyecto.
+Capacitación del personal: se brindará capacitación adecuada al personal de la biblioteca para asegurar que estén completamente familiarizados con el nuevo sistema y puedan utilizarlo de manera efectiva.
+Pruebas y evaluación: se realizarán pruebas rigurosas del nuevo sistema de biblioteca para garantizar que funcione correctamente y cumpla con los objetivos del proyecto. Además, se evaluará el sistema de manera regular para identificar cualquier área que requiera mejoras adicionales.
+Documentación y soporte: se proporcionará documentación completa del nuevo sistema de biblioteca y soporte continuo para garantizar que la biblioteca pueda utilizar el sistema de manera efectiva a largo plazo.
+# Arquitectura Empleada
+CRUD
+El término CRUD se relaciona directamente con la gestión de datos digitales, y su nombre proviene del acrónimo que se forma con las primeras letras de las cuatro operaciones fundamentales de aplicaciones persistentes en sistemas de bases de datos: Crear, Leer, Actualizar y Borrar registros.
+En esencia, el concepto CRUD engloba las funciones básicas que un usuario necesita para crear y gestionar datos. Diferentes procesos de gestión de datos se basan en las operaciones CRUD, las cuales se adaptan específicamente a los requisitos del sistema y del usuario, ya sea para la gestión de bases de datos o para el uso de aplicaciones.
+Patron Singleton
+El patrón de diseño Singleton es un patrón de creación que se utiliza para garantizar que una clase sólo tenga una instancia y que esta instancia sea accesible en todo el programa.
+En este patrón, la clase Singleton tiene un constructor privado y un método estático público que devuelve la única instancia de la clase. Si ya existe una instancia de la clase, el método estático simplemente devuelve esa instancia en lugar de crear una nueva. Si no hay ninguna instancia, el método crea una nueva instancia y la devuelve.
+Este patrón se utiliza a menudo en situaciones en las que se requiere que solo exista una instancia de una clase en todo el programa, como por ejemplo en una conexión de base de datos, una caché de objetos o un registro de eventos. Al limitar la cantidad de instancias a una sola, se garantiza que la clase Singleton sea fácil de controlar y mantener en todo el programa.
+En el presente proyecto utilizamos el Patron Singleton para gestionar de manera eficiente  la conexión a la base de datos. De esta manera creamos una sola instancia de la clase Conexión, y la utilizamos para gestionar el ingreso a la base de datos, de manera que sea una única instancia para cualquier tipo de operación. 
+Asimismo, utilizamos el Patron Singleton para la creación de un único encabezado que estará presente en cada página de nuestro sistema bibliotecario y que indicará el nombre de la Institución y servirá para redireccionar al usuario al menú de opciones. 
+DAO
+Los patrones de objetos de acceso a datos, a menudo conocidos como patrones DAO, se utilizan para dividir los servicios comerciales de alto nivel de las API o acciones de acceso a datos de bajo nivel. Los miembros del patrón de objetos de acceso a datos se enumeran a continuación.
+La interfaz de objeto de acceso a datos delimita las operaciones comunes que se llevarán a cabo en un objeto modelo (s).
+Clase de objeto de acceso a datos concretos: esta clase implementa la interfaz antes mencionada. Esta clase se encarga de obtener datos de una fuente de datos, que puede ser una base de datos, XML u otro tipo de sistema de almacenamiento.
+Modelo o objeto de valor: este objeto es un POJO sencillo con métodos get/set para almacenar datos obtenidos mediante la clase DAO.
+3N Capa
+El patrón de diseño 3N Capa (también conocido como 3-Tier o 3 capas) es un enfoque arquitectónico para el diseño de software que separa la aplicación en tres capas principales: la capa de presentación, la capa de lógica de negocios y la capa de acceso a datos. Este patrón busca mejorar la modularidad y la escalabilidad del software al separar claramente las diferentes responsabilidades en diferentes capas, lo que permite cambios más fáciles y mejor mantenimiento en el futuro. Además, el patrón 3N Capa también promueve la reutilización de código y la flexibilidad en el desarrollo de software.
