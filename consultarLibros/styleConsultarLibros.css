@@ -1,0 +1,33 @@
+.tablaDatos {
+    border-collapse: collapse; /* combinar bordes de celda */
+    width: 100%; /* ancho completo de la tabla */
+    font-size: 16px; /* tamaño de fuente */
+    font-family: Arial, sans-serif; /* tipo de fuente */
+    text-align: center; /* alineación de texto centrado */
+  }
+  
+  .tablaDatos thead th{
+    background-color: rgb(10,10,10); /* Cambia el color de fondo */
+    color: rgb(255,255,255); /* Cambia el color de letra */
+    font-weight: bold; /* negrita */
+    padding: 15px; /* relleno interno de celda */
+  }
+
+  
+  /* Estilos de encabezado de tabla */
+  .tablaDatos tbody th {
+    background-color: #f2f2f2; /* color de fondo */
+    font-weight: bold; /* negrita */
+    padding: 10px; /* relleno interno de celda */
+  }
+  
+  /* Estilos de celda de tabla */
+  .tablaDatos tbody td {
+    border: 1px solid #ddd; /* borde de celda */
+    padding: 8px; /* relleno interno de celda */
+  }
+  
+  /* Estilos de filas impares de la tabla */
+  .tablaDatos tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* color de fondo */
+  }

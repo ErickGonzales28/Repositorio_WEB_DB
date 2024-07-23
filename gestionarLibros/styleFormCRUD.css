@@ -1,0 +1,13 @@
+.labelCRUD {
+    text-align:  10px;
+    font-weight: bold;
+}
+
+.inputCRUD {
+    border-style: none none solid none;
+    border-color: black;
+    border-width: 1.5px;
+    padding: 8px 0px;
+    outline: none;
+    width: 250px;
+}
