@@ -34,18 +34,6 @@ El equipo se propone mejorar el Sistema de Bibliotecas para la Facultad de Ingen
 - **Pruebas y evaluación:** Se realizarán pruebas rigurosas del nuevo sistema de biblioteca para garantizar que funcione correctamente y cumpla con los objetivos del proyecto. Además, se evaluará el sistema de manera regular para identificar cualquier área que requiera mejoras adicionales.
 - **Documentación y soporte:** Se proporcionará documentación completa del nuevo sistema de biblioteca y soporte continuo para garantizar que la biblioteca pueda utilizar el sistema de manera efectiva a largo plazo.
 
-### Definiciones, acrónimos y abreviaturas
-- **FIM:** Facultad de Ingeniería Mecánica
-- **UNI:** Universidad Nacional de Ingeniería
-- **UNLP:** Universidad Nacional de La Plata
-- **RSS:** Really Simple Syndication, distribución realmente sencilla
-- **AI:** Arquitectura de Información
-- **POJO:** Plain Old Java Object, objeto de Java que no implementa ninguna interfase especial
-
-### Referencias
-- **Estudio de la Arquitectura y Desarrollo Web de Bibliotecas universitarias de la Universidad Nacional de La Plata, Argentina:** Análisis de la arquitectura de información (AI) de sitios Web de bibliotecas de la UNLP. Se analizaron 17 bibliotecas y se aplicó una grilla para recabar aspectos relevantes como la ubicación del sitio Web, etiquetado de contenido, capacidad de búsqueda, accesibilidad Web, entre otros. Se concluye que el desarrollo de los sitios es dispar y se recomienda considerar pautas de AI como parte de la cooperación en la red de bibliotecas de la UNLP.
-- **Desarrollo de un sistema de gestión de biblioteca para mejorar la atención en el colegio Mariscal Castilla-El Tambo:** Necesidad de gestionar los libros de la biblioteca de manera eficiente para satisfacer las solicitudes de los estudiantes a tiempo, mejorando la gestión de la biblioteca para brindar un buen servicio a los estudiantes.
-
 ### Vista Global del Proyecto
 El proyecto de mejoramiento del sistema de biblioteca de la FIM tiene como objetivo mejorar la eficiencia y la funcionalidad del sistema actual, abordando las áreas problemáticas y estableciendo objetivos claros y medibles. Además, se brindará capacitación y soporte continuo para asegurar una transición sin problemas al nuevo sistema mejorado.
 
@@ -62,3 +50,6 @@ Los patrones de objetos de acceso a datos (DAO) se utilizan para dividir los ser
 
 ### 3N Capa
 El patrón de diseño 3N Capa (también conocido como 3-Tier o 3 capas) es un enfoque arquitectónico para el diseño de software que separa la aplicación en tres capas principales: la capa de presentación, la capa de lógica de negocios y la capa de acceso a datos. Este patrón busca mejorar la modularidad y la escalabilidad del software.
+
+file:///C:/Users/ERICK/Downloads/CUS%20PRESTAMO%202.png
+
