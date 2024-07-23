@@ -51,19 +51,18 @@ Los patrones de objetos de acceso a datos (DAO) se utilizan para dividir los ser
 ### 3N Capa
 El patrón de diseño 3N Capa (también conocido como 3-Tier o 3 capas) es un enfoque arquitectónico para el diseño de software que separa la aplicación en tres capas principales: la capa de presentación, la capa de lógica de negocios y la capa de acceso a datos. Este patrón busca mejorar la modularidad y la escalabilidad del software.
 
-##CASOS DE USO:
+## CASOS DE USO:
 
-###Caso de Uso Autenticar Usuario:
+### Caso de Uso Autenticar Usuario:
 
 [![CUS-AUTENT.png](https://i.postimg.cc/BncHZNC6/CUS-AUTENT.png)](https://postimg.cc/sMxvwYqd)
 
-###Caso de uso Consultar Libro:
-[url=https://postimg.cc/p94Gtqc0][img]https://i.postimg.cc/p94Gtqc0/CUS-CONSULTAR-LIB.png[/img][/url]
+### Caso de uso Consultar Libro:
+[![CUS-CONSULTAR-LIB.png](https://i.postimg.cc/G29yQRn8/CUS-CONSULTAR-LIB.png)](https://postimg.cc/1nhXmLts)
 
-###Caso de uso Devolver Libro:
-[url=https://postimg.cc/phj0VzgP][img]https://i.postimg.cc/phj0VzgP/CUS-DEVOLVER-LIBRO.png[/img][/url]
+### Caso de uso Devolver Libro:
+[![CUS-DEVOLVER-LIBRO.png](https://i.postimg.cc/vBj62KGP/CUS-DEVOLVER-LIBRO.png)](https://postimg.cc/5YB06nYv)
 
-###Caso de uso Prestamo Libro:
-
-[url=https://postimg.cc/0KqVzrsD][img]https://i.postimg.cc/0KqVzrsD/CUS-PRESTAMO-1.png[/img][/url]
-[url=https://postimg.cc/8FjK3q4J][img]https://i.postimg.cc/8FjK3q4J/CUS-PRESTAMO-2.png[/img][/url]
+### Caso de uso Prestamo Libro:
+[![CUS-PRESTAMO-1.png](https://i.postimg.cc/RhHJkTFv/CUS-PRESTAMO-1.png)](https://postimg.cc/7JqL700R)
+[![CUS-PRESTAMO-2.png](https://i.postimg.cc/mZtq5pY7/CUS-PRESTAMO-2.png)](https://postimg.cc/V5PDSRHN)
