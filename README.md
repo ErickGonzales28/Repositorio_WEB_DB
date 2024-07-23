@@ -55,7 +55,7 @@ El patrón de diseño 3N Capa (también conocido como 3-Tier o 3 capas) es un en
 
 ###Caso de Uso Autenticar Usuario:
 
-[url=https://postimg.cc/dhWN5q2c][img]https://i.postimg.cc/dhWN5q2c/CUS-AUTENT.png[/img][/url]
+[![CUS-AUTENT.png](https://i.postimg.cc/BncHZNC6/CUS-AUTENT.png)](https://postimg.cc/sMxvwYqd)
 
 ###Caso de uso Consultar Libro:
 [url=https://postimg.cc/p94Gtqc0][img]https://i.postimg.cc/p94Gtqc0/CUS-CONSULTAR-LIB.png[/img][/url]
