@@ -12,14 +12,9 @@
    2. [Patrón Singleton](#patrón-singleton)
    3. [DAO](#dao)
    4. [3N Capa](#3n-capa)
-3. [Requerimientos y Restricciones](#requerimientos-y-restricciones)
-   1. [Matriz de Requerimientos Funcionales](#matriz-de-requerimientos-funcionales)
-   2. [Matriz de Requerimientos No Funcionales](#matriz-de-requerimientos-no-funcionales-según-el-modelo-fursp)
-   3. [Restricciones](#restricciones)
-4. [Vista Funcional](#vista-funcional)
+3. [Vista Funcional](#vista-funcional)
    1. [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
-   2. [Diagrama de Actividades](#diagrama-de-actividades)
-5. [Referencias Bibliográficas](#referencias-bibliográficas)
+
 
 ## Introducción
 
@@ -51,7 +46,7 @@ Los patrones de objetos de acceso a datos (DAO) se utilizan para dividir los ser
 ### 3N Capa
 El patrón de diseño 3N Capa (también conocido como 3-Tier o 3 capas) es un enfoque arquitectónico para el diseño de software que separa la aplicación en tres capas principales: la capa de presentación, la capa de lógica de negocios y la capa de acceso a datos. Este patrón busca mejorar la modularidad y la escalabilidad del software.
 
-## CASOS DE USO:
+## Vista Funcional](CASOS DE USO):
 
 ### Caso de Uso Autenticar Usuario:
 
